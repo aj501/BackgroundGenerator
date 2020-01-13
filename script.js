@@ -6,9 +6,9 @@ var body = document.getElementById("gradient");
 // Function to set gradient background for 2 color values
 function setGradient(){
   body.style.background=
-  "linear-gradient(to right, "
+  "Gradient(left, "
   + color1.value
-  + ", "
+  + ", right "
   + color2.value
   + ")";
 
